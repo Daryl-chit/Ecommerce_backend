@@ -1,0 +1,19 @@
+const getDashboard = require('./getDashboard');
+const getBadgeCount = require('./getBadgeCount');
+const getReport = require('./getReport');
+const getTransactions = require('./getTransactions');
+const getPosts = require('./getPosts');
+const getUploads = require('./getUploads');
+const getActivityUsers = require('./getActivityUsers');
+const getRevenue = require('./getRevenue');
+const getNumericReport = require('./getNumericReport');
+
+module.exports.getDashboard = getDashboard;
+module.exports.getBadgeCount = getBadgeCount;
+module.exports.getReport = getReport;
+module.exports.getTransactions = getTransactions;
+module.exports.getPosts = getPosts;
+module.exports.getUploads = getUploads;
+module.exports.getActivityUsers = getActivityUsers;
+module.exports.getRevenue = getRevenue;
+module.exports.getNumericReport = getNumericReport;

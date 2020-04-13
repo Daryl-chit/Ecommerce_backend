@@ -1,0 +1,21 @@
+const get = require('./get');
+const getById = require('./getById');
+const create = require('./create');
+const removeById = require('./removeById');
+const updateById = require('./updateById');
+const getPostDetail = require('./getPostDetail');
+const getRecentPosts = require('./getRecentPosts');
+const getTopRatedPosts = require('./getTopRatedPosts');
+const getPendingPosts = require('./getPendingPosts');
+const getByTrip = require('./getByTrip');
+
+module.exports.get = get;
+module.exports.getById = getById;
+module.exports.create = create;
+module.exports.removeById = removeById;
+module.exports.updateById = updateById;
+module.exports.getPostDetail = getPostDetail;
+module.exports.getRecentPosts = getRecentPosts;
+module.exports.getTopRatedPosts = getTopRatedPosts;
+module.exports.getPendingPosts = getPendingPosts;
+module.exports.getByTrip = getByTrip;
